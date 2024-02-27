@@ -16,7 +16,7 @@ public class WalletTest {
     @Test
     void testAddMoney() {
         wallet.addMoney(10000);
-        Assertions.assertEquals(1, wallet.getMoneys().get(10000));
+        Assertions.assertEquals(1, wallet.getMoneys().get(10000));a
     }
 
     @Test
